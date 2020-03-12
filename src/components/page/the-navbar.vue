@@ -24,7 +24,7 @@
         <a
           title="Github"
           target="_blank"
-          class="navbar-item"
+          class="navbar-item ml-3"
           href="https://github.com/mikeevstropov/vuex-loopback">
 
           <b-icon

@@ -1,8 +1,8 @@
 <template>
 
-  <!-- The Navbar -->
+  <!-- Page Navbar -->
   <nav
-    class="the-navbar navbar docs-navbar is-spaced has-shadow is-transparent">
+    class="page-navbar navbar docs-navbar is-spaced has-shadow is-transparent">
 
     <div
       class="container">
@@ -90,6 +90,7 @@
 <script>
 
   export default {
+    name: 'page-navbar',
     props: {
       light: Boolean
     },
@@ -110,7 +111,7 @@
 
 <style lang="scss">
 
-  .the-navbar {
+  .page-navbar {
 
     img {
       max-height: 2.4rem;

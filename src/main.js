@@ -1,3 +1,5 @@
+import '@/assets/scss/grid.scss';
+
 import Vue from 'vue';
 import boot from './boot';
 import App from './App.vue';

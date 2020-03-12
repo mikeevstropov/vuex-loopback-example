@@ -1,8 +1,8 @@
 <template>
 
-  <!-- The Footer -->
+  <!-- Page Footer -->
   <footer
-    class="the-footer footer">
+    class="page-footer footer">
 
     <div
       class="container">
@@ -20,7 +20,7 @@
 
               <small>
 
-                Example usage of
+                Usage example of
 
                 <a
                   target="_blank"
@@ -101,7 +101,7 @@
 <script>
 
   export default {
-    name: 'the-footer',
+    name: 'page-footer',
     props: {},
   };
 
@@ -109,7 +109,7 @@
 
 <style lang="scss">
 
-  .the-footer {
+  .page-footer {
     color: inherit;
   }
 

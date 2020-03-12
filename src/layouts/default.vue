@@ -4,7 +4,7 @@
   <section
     class="default-layout">
 
-    <the-navbar
+    <page-navbar
       light/>
 
     <!-- Content -->
@@ -25,7 +25,7 @@
 
     </section>
 
-    <the-footer/>
+    <page-footer/>
 
   </section>
 
@@ -33,14 +33,14 @@
 
 <script>
 
-  import TheNavbar from '../components/page/the-navbar';
-  import TheFooter from '../components/page/the-footer';
+  import PageNavbar from '../components/page/page-navbar';
+  import PageFooter from '../components/page/page-footer';
 
   export default {
     name: 'default-layout',
     components: {
-      TheFooter,
-      TheNavbar,
+      PageFooter,
+      PageNavbar,
     },
     props: {},
   };

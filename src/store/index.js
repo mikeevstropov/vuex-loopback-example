@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-import client from '@/services';
+import {client} from '@/services';
 import {NotificationProgrammatic as Notify} from 'buefy';
 
 import createBooksModule from './books';

@@ -1,6 +1,8 @@
 import Vue from 'vue';
 import Buefy from 'buefy';
-import 'buefy/dist/buefy.css';
+import '@/assets/scss/buefy.scss';
+import '@mdi/font/css/materialdesignicons.css';
+import 'bootstrap-utilities/bootstrap-utilities.css';
 
 export default function({/* router, state */}) {
 

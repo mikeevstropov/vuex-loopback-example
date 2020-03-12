@@ -1,19 +1,47 @@
 <template>
 
   <!-- Default Layout -->
-  <div
+  <section
     class="default-layout">
 
-    <router-view/>
+    <the-navbar
+      light/>
 
-  </div>
+    <!-- Content -->
+    <section
+      class="default-layout__content hero is-light">
+
+      <div
+        class="hero-body">
+
+        <div
+          class="container">
+
+          <router-view/>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <the-footer/>
+
+  </section>
 
 </template>
 
 <script>
 
+  import TheNavbar from '../components/page/the-navbar';
+  import TheFooter from '../components/page/the-footer';
+
   export default {
     name: 'default-layout',
+    components: {
+      TheFooter,
+      TheNavbar,
+    },
     props: {},
   };
 
@@ -22,7 +50,13 @@
 <style lang="scss">
 
   .default-layout {
-    color: inherit;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+    &__content {
+      flex: 1;
+    }
   }
 
 </style>

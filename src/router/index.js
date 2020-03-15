@@ -11,8 +11,8 @@ const routes = [
       {
         path: '',
         component: () => import('@/pages/home'),
-      }
-    ]
+      },
+    ],
   },
 ];
 

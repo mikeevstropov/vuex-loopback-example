@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="371"
+   width="720"
    height="145"
-   viewBox="0 0 98.160415 38.364583"
+   viewBox="0 0 190.5 38.364583"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (unknown)"
-   sodipodi:docname="logo-short.svg"
+   sodipodi:docname="logo.svg"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="225.33126"
-     inkscape:cy="170.04723"
+     inkscape:zoom="1"
+     inkscape:cx="174.98663"
+     inkscape:cy="-28.882546"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -57,35 +57,40 @@
      inkscape:label="chip"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-258.63542)" />
+     transform="translate(0,-258.63542)">
+    <rect
+       style="opacity:1;fill:#33485d;fill-opacity:1;stroke:none;stroke-width:0.10681979;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1019"
+       width="153.46378"
+       height="16.146441"
+       x="17.500408"
+       y="269.8157"
+       ry="8.0732203" />
+  </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="text"
      transform="translate(0,-258.63542)">
-    <rect
-       style="opacity:1;fill:#33485d;fill-opacity:1;stroke:none;stroke-width:0.10679211;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect1019"
-       width="75.22171"
-       height="16.146454"
-       x="17.491339"
-       y="269.8157"
-       ry="8.0732203" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.05109978px;line-height:1.25;font-family:'Aristotelica Text Trial';-inkscape-font-specification:'Aristotelica Text Trial Bold';letter-spacing:0px;word-spacing:2.60115385px;fill:#fcfcfc;fill-opacity:1;stroke:none;stroke-width:0.56177902;stroke-miterlimit:4;stroke-dasharray:none"
-       x="40.873638"
-       y="282.32266"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:11.10925961px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Light';letter-spacing:0px;word-spacing:2.21413493px;fill:#fcfcfc;fill-opacity:1;stroke:none;stroke-width:0.47819334;stroke-miterlimit:4;stroke-dasharray:none"
+       x="42.041821"
+       y="281.77344"
        id="text1017-3"
-       transform="scale(1.0011156,0.99888568)"><tspan
+       transform="scale(1.0013751,0.99862679)"><tspan
          sodipodi:role="line"
          id="tspan1015-6"
-         x="40.873638"
-         y="282.32266"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Aristotelica Text Trial';-inkscape-font-specification:'Aristotelica Text Trial Bold';letter-spacing:1.48637366px;word-spacing:2.60115385px;fill:#fcfcfc;fill-opacity:1;stroke:none;stroke-width:0.56177902;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">VL</tspan></text>
+         x="42.041821"
+         y="281.77344"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Aristotelica Text Trial';-inkscape-font-specification:'Aristotelica Text Trial Semi-Bold';letter-spacing:1.26521993px;word-spacing:2.21413493px;fill:#fcfcfc;fill-opacity:1;stroke:none;stroke-width:0.47819334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">VU<tspan
+   style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Aristotelica Text Trial';-inkscape-font-specification:'Aristotelica Text Trial Semi-Bold';letter-spacing:1.89782989px;stroke:none;stroke-width:0.47819334"
+   id="tspan1115">E</tspan><tspan
+   style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Aristotelica Text Trial';-inkscape-font-specification:'Aristotelica Text Trial Semi-Bold';word-spacing:2.53043985px;stroke:none;stroke-width:0.47819334"
+   id="tspan1111">X</tspan>-LOOPBACK</tspan></text>
     <g
        id="g989"
-       transform="matrix(0.44837209,0,0,0.4473734,19.423943,252.98753)">
+       transform="matrix(0.4486046,0,0,0.44737341,19.434015,252.98753)">
       <path
          style="fill:#40b782;stroke-width:0.07559523"
          d="m -20.67966,58.641364 c -12.4056,-21.493778 -22.59388,-39.09533 -22.64063,-39.114561 -0.0467,-0.01923 2.10915,-0.03766 4.79089,-0.04096 2.68174,-0.0033 10.50757,-0.0286 17.39074,-0.05623 l 12.5148501,-0.05024 5.16328,8.951598 c 2.83980001,4.923379 5.21082,9.001411 5.26893,9.062292 0.0928,0.09719 0.11835,0.09719 0.20979,0 0.1539,-0.163568 10.3279999,-17.822142 10.3279999,-17.925676 0,-0.06723 3.00998,-0.07631 12.59916,-0.03801 6.92953,0.02768 14.77915,0.05301 17.4436,0.05629 2.66444,0.0033 4.80494,0.02212 4.75666,0.04186 -0.0483,0.01974 -10.23663,17.620924 -22.64077,39.113742 -12.40415,21.49282 -22.5700699,39.078219 -22.5909299,39.078679 -0.0209,7.5e-4 -10.18797,-17.585006 -22.5935701,-39.078784 z"
@@ -99,7 +104,7 @@
     </g>
     <g
        id="g1109"
-       transform="matrix(0.70149748,0,0,0.69993502,-43.981905,259.19669)">
+       transform="matrix(0.70186125,0,0,0.69993501,48.283969,259.19669)">
       <circle
          r="19.849422"
          cy="26.590162"

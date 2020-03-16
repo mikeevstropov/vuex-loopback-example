@@ -17,10 +17,3 @@ yarn serve
 ```
 
 ##### 3. Go to http://localhost:8080/
-
-<br/>
-<br/>
-<div align="center">
-  <img alt="logo" src="public/img/screenshot.png"/>
-</div>
-<br/>

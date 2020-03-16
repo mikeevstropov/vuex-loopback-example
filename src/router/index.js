@@ -12,6 +12,10 @@ const routes = [
         path: '',
         component: () => import('@/pages/home'),
       },
+      {
+        path: 'customers',
+        component: () => import('@/pages/customers'),
+      },
     ],
   },
 ];

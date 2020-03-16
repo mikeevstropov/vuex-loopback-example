@@ -1,0 +1,10 @@
+// Place all of the SCSS @imports into
+// a single SCSS file, and import that
+// single file into project.
+//
+// Importing individual SCSS files into
+// project will not share variable values
+// and functions between files by default.
+
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';

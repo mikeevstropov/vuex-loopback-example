@@ -4,11 +4,12 @@
   <div
     class="empty-status">
 
-    <b-loading
-      :active="loading"/>
+    <b-spinner
+      v-if="loading"
+      variant="primary"/>
 
     <span
-      v-if="!loading"
+      v-else
       style="opacity: .7;">
       {{ message }}
     </span>
@@ -24,7 +25,7 @@
     props: {
       message: {
         type: String,
-        default: 'тут ничего',
+        default: 'nothing here',
       },
       loading: {
         type: Boolean,
@@ -39,9 +40,10 @@
 
   .empty-status {
     margin: 4.5rem;
-    color: dimgrey;
+    color: $text-muted;
     font-size: 1.26rem;
     text-align: center;
+    padding: map-get($spacers, 5);
   }
 
 </style>

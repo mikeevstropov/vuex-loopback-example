@@ -1,6 +1,11 @@
 <template>
 
-  <router-view/>
+  <div
+    class="default-layout container">
+
+    <router-view/>
+
+  </div>
 
 </template>
 
@@ -17,7 +22,8 @@
 <style lang="scss">
 
   .default-layout {
-    color: inherit;
+    padding: map-get($spacers, 5);
+    padding-bottom: $spacer * 5;
   }
 
 </style>

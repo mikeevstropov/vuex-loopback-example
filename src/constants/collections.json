@@ -1,0 +1,17 @@
+[
+  {
+    "name": "customer",
+    "title": "Customer",
+    "link": "/customers"
+  },
+  {
+    "name": "book",
+    "title": "Book",
+    "link": "/books"
+  },
+  {
+    "name": "order",
+    "title": "Order",
+    "link": "/orders"
+  }
+]

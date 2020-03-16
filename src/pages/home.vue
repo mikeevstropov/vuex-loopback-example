@@ -4,7 +4,35 @@
   <div
     class="home-page">
 
-    home
+    <page-header
+      title="Select collection"
+      subtitle="Which collection do you want to manage?"/>
+
+    <page-content
+      content-class="grid-6 grid-gap-4">
+
+      <document-card
+        caption="Model"
+        :key="item.name"
+        :data="item.model"
+        :title="item.title"
+        v-for="item in collections">
+
+        <b-button
+          size="sm"
+          slot="action"
+          :to="item.link"
+          variant="primary">
+
+          <b-icon
+            scale="1.4"
+            icon="gear"/>
+
+        </b-button>
+
+      </document-card>
+
+    </page-content>
 
   </div>
 
@@ -12,8 +40,17 @@
 
 <script>
 
+  import collections from '@/constants/collections';
+
   export default {
     name: 'home-page',
+    created() {
+
+      this.collections = collections.map(item => ({
+        ...item,
+        model: require(`@/models/${item.name}`),
+      }));
+    },
   };
 
 </script>

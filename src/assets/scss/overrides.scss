@@ -1,0 +1,13 @@
+
+/* VueJsonBlock */
+
+.vjs-tree.is-root {
+  color: white;
+  padding: map-get($spacers, 4);
+  background-color: $body-color;
+  border-radius: $border-radius-lg;
+
+  & .vjs-tree__content.has-line {
+    border-left: 1px dotted lighten($body-color, 10);
+  }
+}

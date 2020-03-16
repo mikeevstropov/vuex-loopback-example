@@ -1,19 +1,26 @@
-# vuex-loopback-example
+## Installing
 
-## Project setup
+##### 1. Clone `loopback-example-relations` and start api-server.
 ```
+git clone https://github.com/strongloop/loopback-example-relations.git
+cd loopback-example-relations
 yarn install
+yarn start
 ```
 
-### Compiles and hot-reloads for development
+##### 2. Clone `vuex-loopback-example` and start web-server.
 ```
+git clone https://github.com/mikeevstropov/vuex-loopback-example.git
+cd vuex-loopback-example
+yarn install
 yarn serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+##### 3. Go to http://localhost:8080/
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<br/>
+<br/>
+<div align="center">
+  <img alt="logo" src="public/screenshot.png"/>
+</div>
+<br/>

@@ -1,11 +1,9 @@
 <br/>
-<br/>
 <a href="https://github.com/mikeevstropov/vuex-loopback">
 <div align="center">
   <img alt="logo" src="public/img/logo.svg" height="70px"/>
 </div>
 </a>
-<br/>
 <br/>
 
 ## Installing

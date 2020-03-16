@@ -4,7 +4,8 @@
   <b-card
     class="document-card">
 
-    <b-card-title>
+    <b-card-title
+      v-if="title || $slots.action">
 
       <span
         class="align-middle">
@@ -22,6 +23,7 @@
     </b-card-title>
 
     <small
+      v-if="caption"
       class="d-block text-muted mb-2">
       {{ caption }}
     </small>

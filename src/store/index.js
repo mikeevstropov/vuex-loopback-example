@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
+import app from '../main';
 import {client} from '@/services';
 
 import createBooksModule from './books';
@@ -15,20 +16,16 @@ const onSuccess = ({action}) => {
     action === 'FETCH_ITEMS'
   ) return;
 
-  Notify.open({
-    duration: 3000,
-    type: 'is-success',
-    position: 'is-top-right',
-    message: 'Operation succeeded.',
-  });
+  app.$notify(
+    'success',
+    'Success',
+  );
 };
 
-const onError = ({error}) => Notify.open({
-  duration: 3000,
-  type: 'is-danger',
-  position: 'is-top-right',
-  message: error.message || 'Operation failed.',
-});
+const onError = ({error}) => app.$notify(
+  'error',
+  error.message || 'Failed',
+);
 
 const options = {
   client,

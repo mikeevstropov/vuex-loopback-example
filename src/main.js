@@ -1,5 +1,4 @@
 import '@/assets/scss/grid.scss';
-import '@/assets/scss/overrides.scss';
 
 import Vue from 'vue';
 import boot from './boot';
@@ -14,7 +13,7 @@ boot.forEach(item => item({
   router,
 }));
 
-new Vue({
+export default new Vue({
   router,
   store,
   render: h => h(App)

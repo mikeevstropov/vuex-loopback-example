@@ -1,15 +1,15 @@
 <template>
 
-  <!-- Customers Page -->
+  <!-- Orders Page -->
   <div
-    class="customers-page">
+    class="orders-page">
 
     <page-header
-      title="Select Customer"
+      title="Select Order"
       subtitle="Which document do you want to edit?"/>
 
     <items-loader
-      module="customers">
+      module="orders">
 
       <template
         slot-scope="{page, pages, items, loading, loadPage}">
@@ -23,8 +23,8 @@
           </b-button>
 
           <b-button
+            to="/order"
             slot="action"
-            to="/customer"
             variant="primary"
             class="float-right">
             Add new
@@ -44,14 +44,14 @@
               caption="Data"
               :key="item.id"
               v-for="item in items"
-              :title="item.name || 'No name'">
+              :title="$u.humanDateTime(item.date, 'No date')">
 
               <b-button
                 size="sm"
                 slot="action"
                 variant="primary"
                 class="float-right"
-                :to="`/customer/${item.id}`">
+                :to="`/order/${item.id}`">
 
                 <b-icon
                   scale="1.4"
@@ -81,14 +81,14 @@
 <script>
 
   export default {
-    name: 'customers-page',
+    name: 'orders-page',
   };
 
 </script>
 
 <style lang="scss">
 
-  .customers-page {
+  .orders-page {
     color: inherit;
   }
 

@@ -5,7 +5,7 @@
     class="home-page">
 
     <page-header
-      title="Select collection"
+      title="Select Collection"
       subtitle="Which collection do you want to manage?"/>
 
     <page-content

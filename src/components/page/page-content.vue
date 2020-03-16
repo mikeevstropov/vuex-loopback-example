@@ -5,16 +5,30 @@
     class="page-content mt-5">
 
     <div
-      class="mb-4"
+      class="d-flex mb-4"
       v-if="$slots.action">
 
-      <slot
-        name="action"/>
+      <div
+        class="flex-fill">
+
+        <slot
+          name="action"/>
+
+      </div>
+
+      <div
+        class="d-flex">
+
+        <slot
+          name="right-action"/>
+
+      </div>
 
     </div>
 
     <div
-      :class="contentClass">
+      :class="contentClass"
+      class="page-content__content">
 
       <slot/>
 
@@ -38,7 +52,10 @@
 <style lang="scss">
 
   .page-content {
-    color: inherit;
+
+    &__content {
+      margin-top: $spacer * 2.1;
+    }
   }
 
 </style>

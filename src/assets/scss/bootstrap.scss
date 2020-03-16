@@ -8,3 +8,19 @@
 
 @import '~bootstrap/scss/bootstrap.scss';
 @import '~bootstrap-vue/src/index.scss';
+
+/* BToast */
+
+.b-toast {
+
+  &-success .toast {
+    color: white !important;
+    background-color: $success !important;
+  }
+
+  &-error .toast {
+    color: white !important;
+    background-color: $danger !important;
+  }
+}
+

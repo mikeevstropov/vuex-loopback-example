@@ -1,19 +1,18 @@
 import Vue from 'vue';
 
-export default function({/* router, state */}) {
+export default function({store /* , router */}) {
 
   const fn = function(
     callback,
-    message = 'Подтвердите действие',
+    message = 'Are you sure that you want to confirm this action?',
   ) {
 
     return this.$bvModal.msgBoxConfirm(message, {
       centered: true,
-      okTitle: 'Продолжить',
+      okTitle: 'Continue',
       okVariant: 'primary',
-      cancelTitle: 'Отмена',
+      cancelTitle: 'Cancel',
       cancelVariang: 'secondary',
-      contentClass: 'font-size-5',
       footerClass: 'd-flex justify-content-between'
     }).then(value => {
 

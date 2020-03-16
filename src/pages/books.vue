@@ -1,15 +1,15 @@
 <template>
 
-  <!-- Customers Page -->
+  <!-- Books Page -->
   <div
-    class="customers-page">
+    class="books-page">
 
     <page-header
-      title="Select Customer"
+      title="Select Book"
       subtitle="Which document do you want to edit?"/>
 
     <items-loader
-      module="customers">
+      module="books">
 
       <template
         slot-scope="{page, pages, items, loading, loadPage}">
@@ -23,8 +23,8 @@
           </b-button>
 
           <b-button
+            to="/book"
             slot="action"
-            to="/customer"
             variant="primary"
             class="float-right">
             Add new
@@ -51,7 +51,7 @@
                 slot="action"
                 variant="primary"
                 class="float-right"
-                :to="`/customer/${item.id}`">
+                :to="`/book/${item.id}`">
 
                 <b-icon
                   scale="1.4"
@@ -81,14 +81,14 @@
 <script>
 
   export default {
-    name: 'customers-page',
+    name: 'books-page',
   };
 
 </script>
 
 <style lang="scss">
 
-  .customers-page {
+  .books-page {
     color: inherit;
   }
 

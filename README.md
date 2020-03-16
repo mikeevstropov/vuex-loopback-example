@@ -21,6 +21,6 @@ yarn serve
 <br/>
 <br/>
 <div align="center">
-  <img alt="logo" src="public/screenshot.png"/>
+  <img alt="logo" src="public/img/screenshot.png"/>
 </div>
 <br/>

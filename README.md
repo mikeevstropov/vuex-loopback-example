@@ -26,16 +26,21 @@ yarn serve
 
 ##### 3. Go to http://localhost:8080/
 
+## Usage
+
 <br/>
+<p style="text-align: center;">Customer, Book and Order collection.</p>
 <div align="center">
-  <img alt="index page" src="public/scr/page-index.png"/>
+  <img alt="index page" src="public/scr/page-index.png" style="max-width: 500px;"/>
 </div>
 <br/>
+<p style="text-align: center;">Collection documents.</p>
 <div align="center">
-  <img alt="customers page" src="public/scr/page-customers.png"/>
+  <img alt="customers page" src="public/scr/page-customers.png" style="max-width: 500px;"/>
 </div>
 <br/>
+<p style="text-align: center;">Document editor.</p>
 <div align="center">
-  <img alt="customer page" src="public/scr/page-customer.png"/>
+  <img alt="customer page" src="public/scr/page-customer.png" style="max-width: 500px;"/>
 </div>
 <br/>

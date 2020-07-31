@@ -7535,10 +7535,10 @@ vue@^2.6.11:
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.11.tgz#76594d877d4b12234406e84e35275c6d514125c5"
   integrity sha512-VfPwgcGABbGAue9+sfrD4PuwFar7gPb1yl1UK1MwXoQPAw0BKSqWfoYCT/ThFrdEVWoI51dBuyCoiNU9bZDZxQ==
 
-vuex-loopback@^1.4.7:
-  version "1.4.7"
-  resolved "https://registry.yarnpkg.com/vuex-loopback/-/vuex-loopback-1.4.7.tgz#52d8a676ac022cfaa5469ac00b5537225ed6558f"
-  integrity sha512-PU4qQIx9tEjaiEXWzR6ouQZ+z4rncwgcbfpnqJbiwR4e/8p4k+X/md/S5asciDf+HX/GJcgL1B+fUJu8jluNAQ==
+vuex-loopback@^1.4.9:
+  version "1.4.9"
+  resolved "https://registry.yarnpkg.com/vuex-loopback/-/vuex-loopback-1.4.9.tgz#4559ad67efda4ccc4925633b113474937d2cdb87"
+  integrity sha512-uQA21FoDf+S/yI1yQi1D/qyPuYexK1QNlXLDefSm9aQLmcdeqBmVEHntu2d2fKewK9sDc1eO2Z+hEB+BQGcqlg==
   dependencies:
     lodash "^4.17.15"
 

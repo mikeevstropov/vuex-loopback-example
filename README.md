@@ -24,9 +24,9 @@ yarn install
 yarn serve
 ```
 
-##### 3. Go to http://localhost:8080/
-
 ## Usage
+
+##### Go to http://localhost:8080/
 
 <br/>
 <p align="center">Customer, Book and Order collection.</p>

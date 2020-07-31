@@ -25,8 +25,9 @@
           variant="primary">
 
           <b-icon
-            scale="1.4"
-            icon="gear"/>
+            icon="gear"
+            scale="1.2"
+            class="align-middle"/>
 
         </b-button>
 

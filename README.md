@@ -25,3 +25,17 @@ yarn serve
 ```
 
 ##### 3. Go to http://localhost:8080/
+
+<br/>
+<div align="center">
+  <img alt="index page" src="public/scr/page-index.png"/>
+</div>
+<br/>
+<div align="center">
+  <img alt="customers page" src="public/scr/page-customers.png"/>
+</div>
+<br/>
+<div align="center">
+  <img alt="customer page" src="public/scr/page-customer.png"/>
+</div>
+<br/>
